@@ -9,7 +9,7 @@ A collection of scripts to do things with snapshots in bash script form but the 
 2. Clone the repository
 3. Edit the PROJECT_ID and LOCATION settings to your liking of course
 
-The scripts assume than you want to create a backup single snapshot for all VMs in the project and then when you run 
+The scripts assume than you want to create a single snapshot for all VMs in the project and then when you run 
 
 ```
 create_snapshot.sh
@@ -29,7 +29,7 @@ create_snapshot.sh
 3. delete_backup_plan.sh
 4. delete_backup_vault.sh
 
-Please note that currently the snapshots are set to be retained for 3 days, so if you run the delete_snapshot.sh script earlier than 3 days have passed it will fail. but you can just run it again after three days and it will work, then you can continue with the reverse steps to remove everything if you wish, of screw around with the retention policy.
+Please note that currently the snapshots are set to be retained for 3 days, so if you run the delete_snapshot.sh script earlier than 3 days have passed it will fail. but you can just run it again after three days and it will work, then you can continue with the reverse steps to remove everything if you wish, or mess around with the retention policy.
 
 Good luck :)
 
